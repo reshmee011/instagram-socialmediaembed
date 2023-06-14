@@ -1,0 +1,40 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.InstagramPostCard {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background: "[theme:neutralLighterAlt, default: #f8f8f8]";
+  width: 320px;
+
+  .InstagramPostCardContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .InstagramPostTitle {
+      color: "[theme:themeDarker, default: #5b1519]";
+      height: auto;
+      font-weight: bold;
+    }
+
+    .InstagramPostnfo {
+      padding: 1em;
+    }
+
+    .InstagramPostDescription {
+      padding: 1em;
+    }
+
+    .InstagramPostFooter {
+      margin-top: auto;
+
+      .InstagramPostFooterButton {
+        display: block;
+        padding: 20px;
+        border-radius: 0;
+      }
+    }
+  }
+}

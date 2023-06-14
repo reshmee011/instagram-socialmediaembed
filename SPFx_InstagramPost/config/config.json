@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/InstagramPosts/InstagramPostsWebPart.js",
+          "manifest": "./src/webparts/InstagramPosts/InstagramPostsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InstagramPostsWebPartStrings": "lib/webparts/InstagramPosts/loc/{locale}.js"
+  }
+}
