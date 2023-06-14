@@ -2,7 +2,7 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Microsoft Graph to read SharePoint list populated using the Instagram Basic Display Independent Publisher Connector as per blog post https://pnp.github.io/blog/post/instagrampostsintosharepoint/
 
 [picture of the solution in action, if possible]
 
@@ -19,19 +19,19 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+> SharePoint list populated as described in the blog post https://pnp.github.io/blog/post/instagrampostsintosharepoint/
 
 ## Solution
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+| spfx_instagrampost | [Reshmee Auckloo](https://github.com/reshmee011) |
 
 ## Version history
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.0     | 11 June, 2023 | Initial release |
+| 1.0     | 14 June, 2023 | Initial release |
 
 ## Disclaimer
 
@@ -56,10 +56,9 @@ Description of the extension that expands upon high-level summary above.
 This extension illustrates the following concepts:
 
 - Graph endpoint
-- Fluent 
 - react-social-media-embed
 
-> Notice that better pictures and documentation will increase the InstagramPost usage and the value you are providing for others. Thanks for your submissions advance.
+![Demo](./assets/InstagramSocialMediaEmbed.gif)
 
 > Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
 
